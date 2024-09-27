@@ -1,0 +1,78 @@
+body{
+    background: rgb(110, 116, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+form{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    background: rgb(43, 31, 73);
+    padding: 50px;
+}
+#name, #email, #number{
+    border-radius: 3px;
+    display: block;
+    border: 0;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+textarea{
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top:10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 100px;
+    width: 400px;
+    font-family: sans-serif;
+    border: 0;
+}
+select{
+    display: block;
+    margin-bottom: 20px;
+    margin-top:10px;
+    height: 30px;
+    width: 410px;
+    padding-left: 10px;
+    border: 0;
+    border-radius: 3px;
+}
+input[type=radio], input[type=checkbox] {
+    margin-right: 0.5em;
+}
+
+button{
+    width:80px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 3px;
+    border:0px
+}
+.col, .era{
+    display:block;
+    margin-bottom: 10px;
+}
+.era{
+    margin-top:10px;
+}
+input[type=checkbox]{
+    margin-bottom: 20px;
+}
+.wert, .rtyu{
+    display:block;
+}

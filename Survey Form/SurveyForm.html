@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Rizzler Survey Form</h1>
+    <p id="description"><em>This form lets us determine who has <br> the most Rizz</em></p>
+    <form id="survey-form" action="">
+        <label id="name-label"> Name
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </label>
+        <label id=" email-label"> Email
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </label>
+        <label id="number-label"> Age (optional)
+            <input type="number" id="number" min="1" max="100" placeholder="Enter your number">
+        </label>
+        <label id="kink"> Pick your kink
+            <select id="dropdown" name="dropdown">
+                <option disabled selected>Select an option</option>
+                <option>Skibidi</option>
+                <option>Rizz</option>
+            </select>
+        </label>
+        <label id="choice"><label class="col">What do you Prefer?</label>
+        <label class="wert">
+            <input id="ass" type="radio" name="option" value="Ass">
+                <label for="ass">Ass</label>
+        </label> 
+        <label class="wert">
+            <input id="tits" type="radio" name="option" value="Tits">
+                <label for="tits">Tits </label>
+        </label>        
+        </label>
+        <label id="greets"> <label class="era">Greetings</label>
+        <label class="wert">
+            <input id="whaddup" type="checkbox" value="Whatsup">
+                <label for="whaddup">Whaddup</label>
+        </label>
+        <label class="wert">
+            <input id="bitchh" type="checkbox" value="Guys">
+                <label for="bitchh">Bitcch</label>
+        </label>
+        </label>
+        <label id="comments">Any comments?
+            <textarea placeholder="Write your wishes..."></textarea>
+        </label>
+        <button id="submit" type="submit"><strong>Submit</strong></button>
+    </form>
+</body>
+</html>
